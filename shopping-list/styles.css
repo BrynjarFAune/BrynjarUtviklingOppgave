@@ -1,0 +1,50 @@
+:root {
+	--background-color: #1E403C;
+	--highlight: #F2CB05;
+}
+
+
+body {
+	background-image: url(./static/bg.jpg);
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	overflow: none;
+}
+
+body .groceries {
+	max-height: 100%;
+	height: fit-content;
+	width: fit-content;
+	border: var(--highlight) 1px solid;
+	background-color: var(--background-color);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+}
+
+ul *,
+.header h2 {
+	color: white;
+}
+
+.complete {
+	text-decoration: line-through;
+}
+
+button:hover,
+li:hover {
+	cursor: pointer;
+}
+
+.add-button,
+.clear-button {
+	padding: 5px;
+	background-color: var(--highlight);
+}
+
+.rm-button {
+	background: none;
+	border: none;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="./styles.css">
+		<title>Document</title>
+	</head>
+	<body>
+
+		<div class="groceries">
+			<div class="header">
+				<h2>Grocery list</h2>
+				<div class="add">
+					<input type="text" id="itemName" name="itemName">
+					<button onclick="addItem()" class="add-button">Add item</button>
+				</div>
+				<button onclick="clearList()" class="clear-button">Clear</button>
+			</div>
+			<div class="list-wrapper">
+			<ul id="list" class="list">
+			</div>
+			</ul>
+		</div>
+
+		<script src="./script.js"></script>
+	</body>
+</html>
+
+<!--
+
+center and thinnen 'groceries'
+add background color or image
+shorter input field
+buttons are ugly, use an icon instead for 'add' and 'x'
+seperation between li's
+
+-->
